@@ -16,3 +16,4 @@ To run the project:
 * Once deployed, you can view the Principal propagation functionality from the sample Fiori application at:
     - https://<<application-router-route-in-cloud-foundry>>/ppprincipal/index.html
     - The Fiori app would retrieve $metadata from the oData service using Principal Propagation.
+    - To review the result, open the Network tab in the browser and review $metadata call to the backend.
