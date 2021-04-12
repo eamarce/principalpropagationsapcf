@@ -17,3 +17,5 @@ To run the project:
     - https://<<application-router-route-in-cloud-foundry>>/ppprincipal/index.html
     - The Fiori app would retrieve $metadata from the oData service using Principal Propagation.
     - To review the result, open the Network tab in the browser and review $metadata call to the backend.
+
+Here is a link to the original post in SCN: https://blogs.sap.com/2021/04/12/extending-app-router-node.js-for-sap-principal-propagation-in-cloud-foundry-to-an-on-premise-system-via-user-exchange-token.
