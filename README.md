@@ -7,11 +7,11 @@ as described in the documentation to propagate the user information to the backe
 
 To run the project:
 
-> The principal propagation steps must be completed. https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/c84d4d0b12d34890b334998185f49e88.html
-> Create a destination in SAP Cloud Foundry that uses Principal Propagation as the authentication mechanism. 
-> Clone the repository in Business Application Studio.
-> Modify the project's dummy service ( ZTESTPPSERVICE ) to point to the service you want to consume.
-> Build and deploy the MTA application.
-> Once deployed, you can view the Principal propagation functionality from the sample Fiori application at:
+* The principal propagation steps must be completed. https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/c84d4d0b12d34890b334998185f49e88.html
+* Create a destination in SAP Cloud Foundry that uses Principal Propagation as the authentication mechanism. 
+* Clone the repository in Business Application Studio.
+* Modify the project's dummy service ( ZTESTPPSERVICE ) to point to the service you want to consume.
+* Build and deploy the MTA application.
+* Once deployed, you can view the Principal propagation functionality from the sample Fiori application at:
     - https://<<application-router-route-in-cloud-foundry>>/ppprincipal/index.html
     - The Fiori app would retrieve $metadata from the oData service using Principal Propagation.
